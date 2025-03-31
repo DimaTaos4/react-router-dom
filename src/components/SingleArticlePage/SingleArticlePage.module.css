@@ -1,0 +1,26 @@
+.articleInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.articleInfo h2 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.articleInfo p {
+    font-size: 32px;
+}
+
+.button {
+    padding: 10px 12px;
+    font-size: 20px;
+    background-color: rgb(74, 153, 237);
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    cursor: pointer;
+}

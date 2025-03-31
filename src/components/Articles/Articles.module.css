@@ -1,0 +1,22 @@
+.articlesConteiner {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+    gap: 20px;
+}
+
+.articlesConteiner h2 {
+    font-size: 30px;
+}
+
+.articlesConteiner ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.listItem {
+    font-size: 21px;
+    text-decoration: none;
+
+}
