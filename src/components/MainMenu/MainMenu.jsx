@@ -5,7 +5,7 @@ export default function MainMenu() {
     return (
         <ul className={styles.menu}>
             <li >
-                <NavLink className={styles.menuItem} to='/homepage' >Главная</NavLink>
+                <NavLink className={styles.menuItem} to='/' >Главная</NavLink>
             </li>
             <li >
                 <NavLink className={styles.menuItem} to='/articles'>Статьи</NavLink>

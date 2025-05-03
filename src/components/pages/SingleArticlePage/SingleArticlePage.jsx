@@ -2,7 +2,7 @@ import styles from './SingleArticlePage.module.css'
 import { useParams, useNavigate } from 'react-router-dom'
 export default function SingleArticlePage() {
 
-    const navigate = useNavigate(-1)
+    const navigate = useNavigate()
 
     const { id } = useParams()
     function goBack() {
